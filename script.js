@@ -29,3 +29,24 @@ const loader = document.getElementById("preloader");
 window.addEventListener("load", function(){
     loader.style.display = "none";
 })
+
+gsap.from("header", {
+    y:-40,
+    duration:1,
+    delay:0.5,
+    opacity:0
+});
+
+gsap.from(".home-content" ,{
+    x:-800,
+    duration:1,
+    delay:0.5,
+    scale:0.2
+});
+
+gsap.from(".home-img" ,{
+    x:800,
+    duration:1,
+    delay:0.5,
+    scale:0.2
+})
