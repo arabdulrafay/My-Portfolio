@@ -9,6 +9,7 @@
     border: none;
     outline: none;
     text-decoration: none;
+    font-family: poppins;
 }
 
 :root
@@ -223,7 +224,7 @@ span
     gap: 1.5rem;
 }
 
-.btn-group a:nth-of-type(2)
+.btn-group a:nth-of-type(1)
 {
     background-color: #000;
     color: var(--main-color);
@@ -231,7 +232,7 @@ span
     box-shadow: 0 0 25px transparent;
 }
 
-.btn-group a:nth-of-type(2):hover
+.btn-group a:nth-of-type(1):hover
 {
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
@@ -485,11 +486,13 @@ span
 .services-box
 {
     background-color: var(--main-color);
-    height: 300px;
+    height: 200px;
+    width: 100%;
     border-radius: 3rem;
     border: 5px solid transparent;
+    margin-top: 2rem;
     cursor: pointer;
-    transition: .4s ease-in-out;
+    transition: .4s ease;
 }
 
 .services-box:hover
@@ -505,10 +508,10 @@ span
     display: flex;
     flex-direction: column;
     max-height: 200px;
-    text-align: left;
-    justify-content: left;
-    padding: 5rem 5rem;
-    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+    padding: 8rem 5rem;
+    align-items: center;
 }
 
 .services-info h4
@@ -516,16 +519,6 @@ span
     font-size: 2.8rem;
     font-weight: 800;
     line-height: 1.2;
-    padding-bottom: 15px;
-}
-
-.services-info p
-{
-    font-size: 1.6rem;
-    font-weight: 600;
-    max-height: 100px;
-    line-height: 1.5;
-    margin: auto;
 }
 
 .testimonials
@@ -550,9 +543,9 @@ span
 .testimonials-box img
 {
     margin-bottom: 15px;
-    height: 15rem;
-    width: 15rem;
-    border-radius: 50%;
+    height: 20rem;
+    width: 25rem;
+    border-radius: 6px;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
 }
@@ -580,7 +573,7 @@ span
     text-align: center;
     gap: 1.5rem;
     color: #fff;
-    transition: .4s ease-in-out;
+    transition: .4s;
 }
 
 .testimonials-items:hover
@@ -595,17 +588,17 @@ span
     font-size: 2.8rem;
 }
 
-.testimonials-items p
+.testimonials-items a
 {
     padding-top: 8px;
-    font-size: 1.3rem;
+    font-size: 1.75rem;
+    color: #fff;
+    transition: .3s;
 }
 
-#star
+.testimonials-items a:hover
 {
-    padding-top: 8px;
-    color: gold;
-    font-size: 2rem;
+    color: var(--main-color);
 }
 
 .contact
@@ -770,8 +763,8 @@ span
         padding-right: 0;
         text-align: left;
     }
-    .timeline-item:nth-child(odd),
-    .timeline-item:nth-child(even)
+    .timeline-item:nth-child(even),
+    .timeline-item:nth-child(odd)
     {
         padding-left: 37px;
     }
