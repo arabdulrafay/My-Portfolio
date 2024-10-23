@@ -378,12 +378,12 @@ span
 
 .timeline-item:nth-child(odd)
 {
-    padding-right: calc(50% + 30px);
+    padding-right: 50%;
 }
 
 .timeline-item:nth-child(even)
 {
-    padding-left: calc(50% + 30px);
+    padding-left: 50%;
 }
 
 .timeline-dot
@@ -856,8 +856,9 @@ span
     }
     .home-img img
     {
-        width: 50vw;
-        height: 50vw;
+        width: 45vw;
+        height: 60vw;
+        margin-bottom: -50px;
     }
     .services h2
     {
