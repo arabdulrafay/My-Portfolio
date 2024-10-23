@@ -148,9 +148,10 @@ span
 {
     position: relative;
     top: 3rem;
-    height: 32vw;
-    width: 32vw;
-    border-radius: 50%;
+    height: 30vw;
+    width: 23vw;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     box-shadow: 0 0 25px var(--bg-color);
     cursor: pointer;
     transition: .4s ease-in-out;
