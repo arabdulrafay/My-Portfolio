@@ -544,7 +544,7 @@ span
 .testimonials-box img
 {
     margin-bottom: 15px;
-    height: 20rem;
+    height: 17rem;
     width: 25rem;
     border-radius: 6px;
     border: 3px solid var(--main-color);
@@ -559,7 +559,7 @@ span
 
 .testimonials-items
 {
-    height: 480px;
+    height: 420px;
     max-width: 500px;
     background: rgba(0,0,0,0.7);
     border: 3px solid rgba(238, 238, 238, 0.2);
@@ -591,7 +591,11 @@ span
 
 .testimonials-items a
 {
-    padding-top: 8px;
+    margin-top: 8px;
+    padding: 10px 20px;
+    border: 2px solid var(--second-bg);
+    border-radius: 10px;
+    background: transparent;
     font-size: 1.75rem;
     color: #fff;
     transition: .3s;
@@ -599,7 +603,10 @@ span
 
 .testimonials-items a:hover
 {
-    color: var(--main-color);
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border: 2px solid var(--main-color);
+    transform: scale(1.05);
 }
 
 .contact
