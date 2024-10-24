@@ -416,7 +416,7 @@ span
     border-radius: 4rem;
     box-shadow: 0 0 10px var(--main-color);
     cursor: pointer;
-    transition: .3s ease-in-out;
+    transition: .3s ease-in-out !important;
 }
 
 .timeline-content:hover
@@ -493,7 +493,7 @@ span
     border: 5px solid transparent;
     margin-top: 2rem;
     cursor: pointer;
-    transition: .4s ease;
+    transition: .4s ease !important;
 }
 
 .services-box:hover
@@ -574,13 +574,13 @@ span
     text-align: center;
     gap: 1.5rem;
     color: #fff;
-    transition: .4s;
+    transition: .4s !important;
 }
 
 .testimonials-items:hover
 {
     border: 3px solid var(--main-color);
-    transform: translateY(-10px) scale(1.03);
+    transform: translateY(-10px) scale(1.03) !important;
     box-shadow: 0 0 50px var(--main-color);
 }
 
@@ -879,6 +879,6 @@ span
     .services-box
     {
         padding: 10px 0;
-        height: 350px;
+        height: 240px;
     }
 }
