@@ -619,7 +619,36 @@ span
     color: #fff;
 }
 
-.contact form{
+.contact-items
+{
+    margin-top: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-items .cols
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.contact-items .cols .fa
+{
+    font-size: 30px;
+    color: var(--main-color);
+    margin-right: 30px;
+}
+
+.contact-items .cols p
+{
+    color: var(--main-color);
+    font-size: 20px;
+}
+
+.contact form
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -690,34 +719,6 @@ span
     background-color: var(--main-color);
     color: #000;
     box-shadow: 0 0 25px var(--main-color);
-}
-
-.footer ul
-{
-    margin-top: 0;
-    padding: 0;
-    line-height: 1.6;
-    font-size: 18px;
-    margin-bottom: 0;
-    text-align: center;
-}
-
-.footer ul li a
-{
-    color: #fff;
-    border-bottom: 3px solid transparent;
-    transition: .3s ease-in-out;
-}
-
-.footer ul li a:hover
-{
-    border-bottom: 3px solid var(--main-color);
-}
-
-.footer ul li
-{
-    display: inline-block;
-    padding: 0 15px;
 }
 
 .footer .copyright
