@@ -24,6 +24,14 @@ menuIcon.onclick = () => {
     navbar.classList.toggle("active");
 }
 
+// Close menu when a nav link is clicked (mobile)
+navLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menuIcon.classList.remove("fa-xmark");
+        navbar.classList.remove("active");
+    });
+});
+
 const loader = document.getElementById("preloader");
 
 window.addEventListener("load", function(){
